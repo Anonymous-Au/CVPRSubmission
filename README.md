@@ -54,7 +54,7 @@ def freeze_param(model):
     for name, param in model.named_parameters():
         param.requires_grad = True
 ```
-For pFedCLIP, CLIP-FC and FedCLIP, you have to set it as False.
+For pFedCLIP, FedCLIP, PromptFL, CocoOP, abd LP++, you have to set it as False.
 
 ### utils/prepare_data_dg_clip.py
 
